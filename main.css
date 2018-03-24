@@ -31,6 +31,8 @@ hr {
   border-bottom-color: #CFD8DC;
   border-style: solid;
   margin-top: 5px;
+  margin-right: 17px;
+  margin-left: 1px;
 }
 .logo {
   height: 40px;
@@ -62,15 +64,15 @@ hr {
 }
 
 .website-input {
-  padding-bottom: 10px;
-  height: 10px;
-  width: 650px;
+  padding-bottom: 5px;
+  height: 25px;
+  width: 85%;
   margin-bottom: 40px;
   font-size: 1.2em;
 }
 
 .input-button {
-  width: 655px;
+  width: 86%;
   height: 35px;
   border-radius: 0px;
   font-size: 1.5em;
@@ -107,7 +109,9 @@ hr {
   text-decoration: underline;
   text-decoration-color: #F2F4f4;
   color: #607D8B;
-
+  padding: 7px;
+  display: flex;
+  margin-left: -7px;
 }
 
 .read-delete {
