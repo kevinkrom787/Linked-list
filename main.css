@@ -30,7 +30,7 @@ h2 {
 hr {
   border-bottom-color: #CFD8DC;
   border-style: solid;
-  margin-top: 8px;
+  margin-top: 15px;
   margin-right: 17px;
   margin-left: 1px;
 }
@@ -64,6 +64,14 @@ hr {
 }
 
 .website-input {
+  padding-bottom: 5px;
+  height: 25px;
+  width: 85%;
+  margin-bottom: 40px;
+  font-size: 1.2em;
+}
+
+.url-input {
   padding-bottom: 5px;
   height: 25px;
   width: 85%;
