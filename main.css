@@ -61,7 +61,7 @@ hr {
   width: 50%;
 }
 
-.website-input {
+.website-input, .url-input {
   padding-bottom: 10px;
   height: 10px;
   width: 650px;
