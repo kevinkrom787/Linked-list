@@ -151,3 +151,27 @@ hr {
 .read-delete:hover {
   text-decoration-color: #FFC107;
 }
+
+.reading {
+   display: flex;
+  justify-content: space-between;
+  margin-left: 0px;
+  margin-right: 7px;
+  padding: 0px;
+  margin-top: 5px;
+  font-size: 1em;
+  background: none;
+  color: inherit;
+  text-decoration-color: #445A64;
+  text-decoration: underline;
+  border: none;
+}
+
+
+.read {
+  color: #F05A28;
+}
+
+.background-toggle {
+  background-color: #F2F4F4;
+}
