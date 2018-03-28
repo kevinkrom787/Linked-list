@@ -24,13 +24,15 @@ h1 {
 
 h2 {
 /*   border-bottom: solid; */
-  padding-bottom: 6px;
+  padding-bottom: 4px;
 }
 
 hr {
   border-bottom-color: #CFD8DC;
   border-style: solid;
-  margin-top: 5px;
+  margin-top: 15px;
+  margin-right: 17px;
+  margin-left: 1px;
 }
 .logo {
   height: 40px;
@@ -59,23 +61,37 @@ hr {
   height: 763px;
   margin-left: 50%;
   width: 50%;
+  overflow: scroll;
 }
 
-.website-input, .url-input {
-  padding-bottom: 10px;
-  height: 10px;
-  width: 650px;
+.website-input {
+  padding-bottom: 5px;
+  height: 25px;
+  width: 85%;
+  margin-bottom: 40px;
+  font-size: 1.2em;
+}
+
+.url-input {
+  padding-bottom: 5px;
+  height: 25px;
+  width: 85%;
   margin-bottom: 40px;
   font-size: 1.2em;
 }
 
 .input-button {
-  width: 655px;
+  width: 86%;
   height: 35px;
   border-radius: 0px;
   font-size: 1.5em;
   background-color: #FFC107;
   color:  #FFFFFF;
+}
+.input-button:hover {
+  background-color: #FFD773;
+  color: #FFFFFF;
+  
 }
 
 .container-right {
@@ -90,15 +106,14 @@ hr {
   border-style: solid;
   border-width: 1px;
   color:  #455A64;
-  margin-right: 10px;
+  margin-right: 40px;
   margin-left: 1px;
   padding-left: 10px;
   padding-top: 12px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   margin-top: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 8px;
   background-color: #FFFFFF;
-
 }
 
 
@@ -107,13 +122,57 @@ hr {
   text-decoration: underline;
   text-decoration-color: #F2F4f4;
   color: #607D8B;
+  padding: 7px;
+  display: flex;
+  margin-left: -7px;
+  padding-top: 10px;
+  font-size: 1.2em;
+}
 
+.website-url:hover {
+  text-decoration-color: #FFC107;
 }
 
 .read-delete {
   display: flex;
   justify-content: space-between;
   margin-left: 0px;
-  margin-right: 10px;
-  padding: 5px;
+  margin-right: 7px;
+  padding: 0px;
+  margin-top: 5px;
+  font-size: 1em;
+  background: none;
+  color: inherit;
+  text-decoration-color: #445A64;
+  text-decoration: underline;
+  border: none;
+
+}
+
+.read-delete:hover {
+  text-decoration-color: #FFC107;
+}
+
+.reading {
+   display: flex;
+  justify-content: space-between;
+  margin-left: 0px;
+  margin-right: 7px;
+  padding: 0px;
+  margin-top: 5px;
+  font-size: 1em;
+  background: none;
+  color: inherit;
+  text-decoration-color: #445A64;
+  text-decoration: underline;
+  border: none;
+}
+
+
+.read {
+  color: #F05A28;
+}
+
+.background-toggle {
+  background-color: #F2F4F4;
 }
