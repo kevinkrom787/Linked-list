@@ -61,6 +61,7 @@ hr {
   height: 763px;
   margin-left: 50%;
   width: 50%;
+  overflow: scroll;
 }
 
 .website-input {
